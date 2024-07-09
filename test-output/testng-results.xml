@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-09T10:44:02 IST" name="Default suite" finished-at="2024-07-09T10:44:06 IST" duration-ms="4408">
+    <groups>
+    </groups>
+    <test started-at="2024-07-09T10:44:02 IST" name="Default test" finished-at="2024-07-09T10:44:06 IST" duration-ms="4408">
+      <class name="datadriven.DatadrivenLoginTest">
+        <test-method is-config="true" signature="url()[pri:0, instance:datadriven.DatadrivenLoginTest@1d296da]" started-at="2024-07-09T10:43:56 IST" name="url" finished-at="2024-07-09T10:44:02 IST" duration-ms="5917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="loginUser()[pri:1, instance:datadriven.DatadrivenLoginTest@1d296da]" started-at="2024-07-09T10:44:02 IST" name="loginUser" finished-at="2024-07-09T10:44:05 IST" duration-ms="3049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method signature="loginDetails()[pri:2, instance:datadriven.DatadrivenLoginTest@1d296da]" started-at="2024-07-09T10:44:05 IST" name="loginDetails" finished-at="2024-07-09T10:44:06 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetails -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:datadriven.DatadrivenLoginTest@1d296da]" started-at="2024-07-09T10:44:06 IST" name="closeBrowser" finished-at="2024-07-09T10:44:10 IST" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- datadriven.DatadrivenLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
