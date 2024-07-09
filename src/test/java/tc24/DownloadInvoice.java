@@ -1,6 +1,5 @@
 package tc24;
 
-import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
@@ -80,7 +79,7 @@ WebDriver driver;
 	@FindBy(xpath="//*[@id=\"form\"]/div/div/div/div/a") WebElement Continuebtn;
 	@FindBy(xpath="//ul[@class='nav navbar-nav']/li[5]/a") WebElement deleteAcc;
     @FindBy(xpath="//*[@id=\"form\"]/div/div/div/div/a")WebElement ConfirmDel;
-   // @FindBy(xpath="//div/a[@class='btn btn-primary']")WebElement ClickContinue;
+    @FindBy(xpath="//div/a[@class='btn btn-primary']")WebElement ClickContinue;
     
     
     public void AddProduct()
@@ -203,7 +202,7 @@ WebDriver driver;
 		  }
 	 public boolean isFileDownloaded(String filename) throws IOException
 	 {
-	         String downloadPath = System.getProperty("user.home");
+	         String downloadPath = System.getProperty("users");
 	         File file = new File(downloadPath + "/Downloads/"+ filename);
 	         boolean flag = (file.exists()) ? true : false ;
 	         return flag;
