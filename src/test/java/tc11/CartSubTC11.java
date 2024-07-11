@@ -50,7 +50,7 @@ WebDriver driver;
 			JavascriptExecutor js=(JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,500)", "");
 			Email.sendKeys(eml);
-			Thread.sleep(2000);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	        Submit.click();
 		}
 	  
