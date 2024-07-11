@@ -40,7 +40,7 @@ WebDriver driver;
 		{
 			System.out.println("================");
 			System.out.println(SubcriptionText.getText());
-			Thread.sleep(4000);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 				
 		}
 		public void Enteremail(String eml) throws InterruptedException 
